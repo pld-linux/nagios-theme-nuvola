@@ -1,0 +1,29 @@
+--- ./html/index.html~	2005-05-13 21:07:32.000000000 +0300
++++ ./html/index.html	2005-05-13 21:08:17.000000000 +0300
+@@ -3,6 +3,7 @@
+ <HEAD>
+ <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+ <TITLE>Nagios</TITLE>
++<link rel="shortcut icon" href="/nagios/favicon.ico" type="image/ico">
+ <script type="text/javascript" language="JavaScript1.2" src="config.js"></script>
+ </HEAD>
+ <script language="JavaScript" type="text/javascript">
+--- ./html/main.html~	2005-05-13 21:09:03.000000000 +0300
++++ ./html/main.html	2005-05-13 21:23:03.000000000 +0300
+@@ -4,6 +4,7 @@
+ <HEAD>
+ <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+ <TITLE>Nagios</TITLE>
++<link rel="shortcut icon" href="/nagios/favicon.ico" type="image/ico">
+ <LINK REL='stylesheet' TYPE='text/css' HREF='stylesheets/common.css'>
+ <STYLE type="text/css">
+ 
+--- ./html/side.html~	2005-05-13 21:09:03.000000000 +0300
++++ ./html/side.html	2005-05-13 21:23:24.000000000 +0300
+@@ -1,5 +1,6 @@
+ <html>
+ <head>
++<link rel="shortcut icon" href="/nagios/favicon.ico" type="image/ico">
+ <script type="text/javascript" language="JavaScript1.2" src="config.js"></script>
+ <title></title>
+ <script language="JavaScript" type="text/javascript">
