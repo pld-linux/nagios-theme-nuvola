@@ -11,7 +11,7 @@ URL:		http://tinyurl.com/a946b
 BuildRequires:	tar >= 1:1.15.1
 Obsoletes:	nagios-theme
 Provides:	nagios-theme
-Requires:	nagios-cgi
+Requires:	nagios-cgi >= 2.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
