@@ -10,7 +10,7 @@ Source0:	nagios-nuvola-%{version}.tar.gz
 Patch0:		nagios-nuvola-favicon.patch
 URL:		http://tinyurl.com/a946b
 BuildRequires:	sed >= 4.0
-Requires:	nagios-cgi >= 2.0
+Requires:	nagios-cgi >= 2.0-0.b3.31
 Provides:	nagios-theme
 Obsoletes:	nagios-theme
 BuildArch:	noarch
