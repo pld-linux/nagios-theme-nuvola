@@ -1,12 +1,12 @@
 Summary:	Nagios Nuvola Style
 Summary(pl):	Styl Nuvola dla Nagiosa
 Name:		nagios-theme-nuvola
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	LGPL / Free (dtree)
 Group:		Applications/WWW
 Source0:	nagios-nuvola-%{version}.tar.gz
-# Source0-md5:	27e403785115b1c9b0a1905a42384993
+# Source0-md5:	3e8413932b1936192fdb4080ae90af20
 Patch0:		nagios-nuvola-favicon.patch
 URL:		http://tinyurl.com/a946b
 BuildRequires:	sed >= 4.0
@@ -39,8 +39,7 @@ Ikony pochodz± z motywu KDE Nuvola (http://www.icon-king.com/).
 %prep
 %setup -q -c
 # undos the sources
-find . -type f '(' -name '*.html' -o -name '*.js' ')' -print0 | xargs -0 sed -i -e 's,
-$,,'
+find . -type f '(' -name '*.html' -o -name '*.js' -o -name '*.css' ')' -print0 | xargs -0 sed -i -e 's,\r$,,'
 %patch0 -p1
 
 %install
