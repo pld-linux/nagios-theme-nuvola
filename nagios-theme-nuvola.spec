@@ -2,7 +2,7 @@ Summary:	Nagios Nuvola Style
 Summary(pl):	Styl Nuvola dla Nagiosa
 Name:		nagios-theme-nuvola
 Version:	1.0.3
-Release:	1
+Release:	2
 License:	LGPL / Free (dtree)
 Group:		Applications/WWW
 Source0:	nagios-nuvola-%{version}.tar.gz
