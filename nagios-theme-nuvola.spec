@@ -1,5 +1,5 @@
 Summary:	Nagios Nuvola Style
-Summary(pl):	Styl Nuvola dla Nagiosa
+Summary(pl.UTF-8):   Styl Nuvola dla Nagiosa
 Name:		nagios-theme-nuvola
 Version:	1.0.3
 Release:	3
@@ -28,14 +28,14 @@ Style had been updated to version 1.0 with the free DTree menu.
 This is a complete image pack, menu and stylesheets for Nagios 2.0.
 Icons are from the Nuvola KDE theme (http://www.icon-king.com/)
 
-%description -l pl
-Pe≥ny styl Nagiosa (menu, ikony, arkusze styli, obrazki) dla Nagiosa
+%description -l pl.UTF-8
+Pe≈Çny styl Nagiosa (menu, ikony, arkusze styli, obrazki) dla Nagiosa
 2.0.
 
-Styl zosta≥ uaktualniony do wersji 1.0 z darmowym menu DTree.
+Styl zosta≈Ç uaktualniony do wersji 1.0 z darmowym menu DTree.
 
-Jest to pe≥ny pakiet obrazkÛw, menu i arkuszy styli dla Nagiosa 2.0.
-Ikony pochodz± z motywu KDE Nuvola (http://www.icon-king.com/).
+Jest to pe≈Çny pakiet obrazk√≥w, menu i arkuszy styli dla Nagiosa 2.0.
+Ikony pochodzƒÖ z motywu KDE Nuvola (http://www.icon-king.com/).
 
 %prep
 %setup -q -c
