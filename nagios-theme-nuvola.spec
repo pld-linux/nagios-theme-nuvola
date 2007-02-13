@@ -1,5 +1,5 @@
 Summary:	Nagios Nuvola Style
-Summary(pl.UTF-8):   Styl Nuvola dla Nagiosa
+Summary(pl.UTF-8):	Styl Nuvola dla Nagiosa
 Name:		nagios-theme-nuvola
 Version:	1.0.3
 Release:	3
