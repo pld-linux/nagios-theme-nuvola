@@ -1,0 +1,10 @@
+--- nagios-theme-nuvola-1.0.3/html/side/dtree_data.js~	2009-10-16 21:34:14.918176511 +0300
++++ nagios-theme-nuvola-1.0.3/html/side/dtree_data.js	2009-10-16 21:33:55.221472046 +0300
+@@ -38,6 +38,7 @@
+ 	monitoring.add(12,11,'Service',cgipath + 'status.cgi?host=all&servicestatustypes=28','','','side/icons/error.gif');
+ 	monitoring.add(13,11,'Host',cgipath + 'status.cgi?hostgroup=all&style=hostdetail&hoststatustypes=12','','','side/icons/error.gif');
+ 	monitoring.add(14,11,'Network Outages',cgipath + 'outages.cgi','','','side/icons/error.gif');
++	monitoring.add(15,11,'Unhandled Problems',cgipath + 'status.cgi?host=all&servicestatustypes=28&sorttype=1&sortoption=6&hoststatustypes=14&serviceprops=42&hostprops=42','','','side/icons/error.gif');
+ monitoring.add(15,0,'Comments',cgipath + 'extinfo.cgi?&type=3','','','side/icons/notes.gif');
+ monitoring.add(16,0,'Downtime',cgipath + 'extinfo.cgi?&type=6','','','side/icons/downtime.gif');
+ 
