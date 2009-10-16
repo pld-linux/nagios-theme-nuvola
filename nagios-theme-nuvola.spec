@@ -2,7 +2,7 @@ Summary:	Nagios Nuvola Style
 Summary(pl.UTF-8):	Styl Nuvola dla Nagiosa
 Name:		nagios-theme-nuvola
 Version:	1.0.3
-Release:	4
+Release:	5
 License:	LGPL / Free (dtree)
 Group:		Applications/WWW
 Source0:	nagios-nuvola-%{version}.tar.gz
@@ -23,23 +23,21 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_nagiosdir	/usr/share/nagios
 
 %description
-Complete Nagios Style (Menu, Icons, Stylesheets, Images) for Nagios
-2.0.
+Complete Nagios Style (Menu, Icons, Stylesheets, Images) for Nagios.
 
 Style had been updated to version 1.0 with the free DTree menu.
 
-This is a complete image pack, menu and stylesheets for Nagios 2.0.
+This is a complete image pack, menu and stylesheets for Nagios.
 Icons are from the Nuvola KDE theme <http://www.icon-king.com/>.
 
 Animated Nagios logo from NagioSexchange project #2343.
 
 %description -l pl.UTF-8
-Pełny styl Nagiosa (menu, ikony, arkusze styli, obrazki) dla Nagiosa
-2.0.
+Pełny styl Nagiosa (menu, ikony, arkusze styli, obrazki) dla Nagiosa.
 
 Styl został uaktualniony do wersji 1.0 z darmowym menu DTree.
 
-Jest to pełny pakiet obrazków, menu i arkuszy styli dla Nagiosa 2.0.
+Jest to pełny pakiet obrazków, menu i arkuszy styli dla Nagiosa.
 Ikony pochodzą z motywu KDE Nuvola <http://www.icon-king.com/>.
 
 %prep
@@ -65,7 +63,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc *.txt
-# well. should add it to /etc/nagios, but that means need  to enable FollowSymLinks directive in apache
+# well. should add it to /etc/nagios, but that means need to enable FollowSymLinks directive in apache
 %config(noreplace) %verify(not md5 mtime size) %{_nagiosdir}/config.js
 %{_nagiosdir}/*.html
 %{_nagiosdir}/images/*

@@ -4,7 +4,7 @@
  <HEAD>
  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
  <TITLE>Nagios</TITLE>
-+<link rel="shortcut icon" href="/nagios/favicon.ico" type="image/ico">
++<link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
  <script type="text/javascript" language="JavaScript1.2" src="config.js"></script>
  </HEAD>
  <script language="JavaScript" type="text/javascript">
@@ -14,7 +14,7 @@
  <HEAD>
  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
  <TITLE>Nagios</TITLE>
-+<link rel="shortcut icon" href="/nagios/favicon.ico" type="image/ico">
++<link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
  <LINK REL='stylesheet' TYPE='text/css' HREF='stylesheets/common.css'>
  <STYLE type="text/css">
  
@@ -23,7 +23,7 @@
 @@ -1,5 +1,6 @@
  <html>
  <head>
-+<link rel="shortcut icon" href="/nagios/favicon.ico" type="image/ico">
++<link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
  <script type="text/javascript" language="JavaScript1.2" src="config.js"></script>
  <title></title>
  <script language="JavaScript" type="text/javascript">
