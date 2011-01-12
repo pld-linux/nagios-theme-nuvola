@@ -1,0 +1,20 @@
+--- nagios-theme-nuvola-1.0.3/html/index.html~	2011-01-12 13:47:58.000000000 +0200
++++ nagios-theme-nuvola-1.0.3/html/index.html	2011-01-12 13:54:35.720485310 +0200
+@@ -2,7 +2,7 @@
+ <HTML>
+ <HEAD>
+ <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+-<TITLE>Nagios</TITLE>
++<title>Nagios Core</title>
+ <link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
+ <script type="text/javascript" language="JavaScript1.2" src="config.js"></script>
+ </HEAD>
+@@ -21,7 +21,7 @@
+ <center>
+ <h2>Nagios</h2>
+ <a href="http://www.nagios.org" alt="Nagios Home">www.nagios.org</a><br>
+-Copyright (c) 1999-2001 Ethan A. Galstad<br>
++Copyright (c) 1999-2010 Ethan Galstad<br>
+ </center>
+ </p>
+ <p>
