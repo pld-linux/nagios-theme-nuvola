@@ -1,5 +1,6 @@
---- nagios-theme-nuvola-1.0.3/html/side/dtree.css~	2008-11-26 21:25:27.145921479 +0200
-+++ nagios-theme-nuvola-1.0.3/html/side/dtree.css	2008-11-26 21:25:47.070077273 +0200
+diff -urNp -x '*.orig' nagios-theme-nuvola-1.0.3.org/html/side/dtree.css nagios-theme-nuvola-1.0.3/html/side/dtree.css
+--- nagios-theme-nuvola-1.0.3.org/html/side/dtree.css	2026-03-29 01:16:11.189924877 +0100
++++ nagios-theme-nuvola-1.0.3/html/side/dtree.css	2026-03-29 01:16:11.278165312 +0100
 @@ -10,7 +10,7 @@
  	position: absolute;
  	height: 2000px;
@@ -9,12 +10,14 @@
  	z-index: 1000;
  	overflow: auto;
  }
---- nagios-theme-nuvola-1.0.3/html/side.html~	2008-11-26 21:30:20.849008882 +0200
-+++ nagios-theme-nuvola-1.0.3/html/side.html	2008-11-26 21:31:12.282546037 +0200
-@@ -42,5 +42,6 @@
+diff -urNp -x '*.orig' nagios-theme-nuvola-1.0.3.org/html/side.html nagios-theme-nuvola-1.0.3/html/side.html
+--- nagios-theme-nuvola-1.0.3.org/html/side.html	2026-03-29 01:16:11.192314214 +0100
++++ nagios-theme-nuvola-1.0.3/html/side.html	2026-03-29 01:16:11.278312734 +0100
+@@ -42,6 +42,7 @@ else
  </script> 
  </head>
  <body bgcolor="#C3C7D3" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0" onload="preloadImages();">
 +<img src="images/sblogo.gif" style="padding-left: 25px; padding-top: 10px"/>
  <script language="JavaScript" type="text/javascript">
  <!--
+ document.write('<form style="padding: 0px; margin:0px;" method="get" action="' + cgipath + 'status.cgi" target="main">');
